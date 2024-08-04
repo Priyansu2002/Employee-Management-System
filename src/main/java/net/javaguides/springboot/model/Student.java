@@ -8,8 +8,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="employees")
-public class Employee {
+@Table(name="students")
+public class Student {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -48,4 +48,5 @@ public class Employee {
 		this.email = email;
 	}
 	
+
 }
